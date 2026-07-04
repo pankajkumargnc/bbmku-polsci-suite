@@ -3,9 +3,15 @@ import withPWAInit from "@ducanh2912/next-pwa";
 
 const withPWA = withPWAInit({
   dest: "public",
-  disable: process.env.NODE_ENV === "development", // Disable PWA in development mode for better DX
+  disable: process.env.NODE_ENV === "development",
 });
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: '/bbmku-polsci-suite',
+  images: {
+    unoptimized: true,
+  },
+};
 
 export default withPWA(nextConfig);

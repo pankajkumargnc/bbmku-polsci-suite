@@ -2,7 +2,7 @@
   "name": "BBMKU Political Science Study Suite",
   "short_name": "PolSci Study",
   "description": "Digital Study Suite for BBMKU M.A. Political Science students",
-  "start_url": "/",
+  "start_url": "/bbmku-polsci-suite/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
